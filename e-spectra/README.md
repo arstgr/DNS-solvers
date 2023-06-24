@@ -42,7 +42,7 @@ E<sub>uu</sub>(x).time, E<sub>vv</sub>(x).time, E<sub>ww</sub>(x).time, correspo
 
 #### Postprocessing
 
-To perform statistical analysis on the resulting data sets, first build the postprocessing component by typing
+To perform statistical analysis on the resulting data sets, first modify the input parameters at the top of `src/postproc-spectra.c`, then build the postprocessing component by typing
 ```
 make postproc-spectra
 ```
