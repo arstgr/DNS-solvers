@@ -73,13 +73,14 @@ Amirreza Rastegari [@arstgr](https://github.com/arstgr)
 
 ## License
 
-This project is licensed under the MIT public License - see the LICENSE.md file for details
+This project is licensed under the GNU Affero general public License. Refer to the [LICENSE](LICENSE) file for more information.
+
 
 ## To Cite
 
 If you use this code in your research, please cite the following work:
 
-Rastegari, S.A., 2017. Computational studies of turbulent skin-friction drag reduction with super-hydrophobic surfaces and riblets ([Doctoral dissertation](https://deepblue.lib.umich.edu/handle/2027.42/136986)).
+Rastegari, S.A., 2017. Computational studies of turbulent skin-friction drag reduction with super-hydrophobic surfaces and riblets ([Doctoral dissertation](https://deepblue.lib.umich.edu/handle/2027.42/136986)), the University of Michigan.
 
 ## Building FFTW
 ```bash
