@@ -2,6 +2,8 @@
 
 This repository contains the source codes for direct numerical simulation (DNS) of turbulent channel flow with various patterns of slip/no-slip boundary conditions on the walls. 
 
+A uniform grid is used for the computations in this solver. As a results, to maintain the numerical stability as well as accuracy, one needs to adjust the grid size such that the grid is almost everywhere in the channel smaller than 2 wall units. To relax this limitations, I developed another solver which used grid embedding, thereby allowing to maintain a fine grid near the walls while having a coarser grid in the core region. The DNS solver with grid embedding and its associate postprocessing components are maintained in another repository.  
+
 A 2-Dimensional domain decomposition is used for the parallel implementation of the solver, in which the solution domain is divided into subdomains in the streamwise and spanwise directions, as seen in figure below. 
 ![Domain Decomposition](figs/domain.png)
 
