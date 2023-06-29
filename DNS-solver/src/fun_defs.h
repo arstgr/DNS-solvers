@@ -1,0 +1,11 @@
+POINTER init(int xd, int yd, int zd, POINTER V);
+POINTER solid_init(int xd, int yd, int zd, POINTER V);
+POINTER slip_ridges_init(int xd, int yd, int zd, POINTER V, PDATA pd, MPI_Comm cart_grid);
+POINTER slip_posts_init(int xd, int yd, int zd, POINTER V, PDATA pd);
+POINTER encalc(int xd, int yd , int zd, POINTER V, DP Gx, int TM, long cntr,DP ubulk, MPI_Comm cart_grid);
+POINTER xcomputations(int xd, int yd, int zd, POINTER V,PDATA pd,DP Gx, DP Gy, DP Gz, DP rhozero,DP tau, DP ubulk);
+POINTER output_twoD(int xd, int yd, int zd, POINTER V, DP C, DP dx, DP Fx, DP rhozero, DP tau);
+void betole(void *pv, size_t n);
+POINTER wshearstr(int xd, int yd, int zd, POINTER V, DP Gx, DP tau, int TM, long cntr, MPI_Comm cart_grid);
+POINTER statistics(int xd, int yd, int zd, POINTER V, PDATA pd, long ts);
+POINTER vel_print(int xd, int yd, int zd, POINTER V, long cntr, MPI_Comm cart_grid);
