@@ -10,6 +10,8 @@ This repository contains a set of parallel solvers for the Direct Numerical Simu
   * [Quadrant analysis](https://github.com/arstgr/DNS-solvers/tree/main/quadrant-analysis)
 
 ![Contour plot of Coherent Structures](figs/fig1.jpg) 
+![Contour plot of Coherent Structures](figs/fig3.jpg) 
+![Contour plot of Coherent Structures](figs/fig2.jpg) 
 
 ## To Cite
 
